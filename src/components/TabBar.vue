@@ -40,10 +40,10 @@ const props = defineProps<Props>();
 }
 
 .selected {
-  @apply border-x-2 border-t-2 font-semibold shadow-[0_0_5px_gray];
+  @apply border-x-2 border-t-2 bg-[var(--color-wow)] font-semibold shadow-[0_0_10px_gray];
 }
 
 .hideShadow {
-  @apply absolute -bottom-2 h-2 w-36 bg-amber-100;
+  @apply absolute -bottom-4 h-4 w-36 bg-[var(--color-wow)];
 }
 </style>
